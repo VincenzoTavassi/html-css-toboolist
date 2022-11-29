@@ -70,3 +70,66 @@ h1 {
     border: 2px solid lightgray;
 
 }
+
+/* Contenuto della Lista */
+
+.new-tasks {
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.today, .upcoming {
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+details {
+    font-family: 'Times New Roman', Times, serif;
+    color: #3C4049;
+}
+
+summary {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+details > p {    
+    font-size: 25px;
+    display: inline;
+    line-height: 50px;
+}
+
+.check {
+    color: green;
+    border: 1px solid green;
+    border-radius: 60%;
+    width: 20px;
+    text-align: center;
+    background-color: white;
+    display: inline-block;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+
+.tag {
+    line-height: 30px;
+    padding: 1px 10px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 12px;
+    display: inline-block;
+
+}
+
+.editoriale {
+    background-color: #47ADF1;
+}
+
+.goals {
+    background-color: #9C72E4;
+}
