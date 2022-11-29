@@ -51,37 +51,40 @@ h1 {
     line-height: 30px;
     padding: 1px 10px;
     border-radius: 10px;
-    color: #fff;
     font-size: 15px;
     margin-top: 20px;
     font-weight: 700;
 }
 
+
 #task {
-    background-color: #47ADF1;
-    border: 2px solid #47ADF1;
-    margin-left: 50px;0px;
+    margin-left: 50px;
     margin-right: 10px;
 }
 
-#section {
+
+#section, #task {
     background-color: #fff;
     color: lightgray;
     border: 2px solid lightgray;
 
 }
 
+#section:hover, #task:hover {
+    background-color: #47ADF1;
+    border: 2px solid #47ADF1;
+    color: #fff;
+}
+
 /* Contenuto della Lista */
 
-.new-tasks {
-    padding-top: 50px;
+.margins {
     margin-left: 50px;
     margin-bottom: 30px;
 }
 
-.today, .upcoming {
-    margin-left: 50px;
-    margin-bottom: 30px;
+.new-tasks {
+    padding-top: 50px;
 }
 
 details {
@@ -92,7 +95,6 @@ details {
 summary {
     font-size: 30px;
     font-weight: 700;
-    margin-bottom: 10px;
 }
 
 details > p {    
@@ -117,6 +119,10 @@ details > p {
     font-size: 90%;
 }
 
+.check::after {
+    content: '\2713';
+}
+
 .cross {
     color: red;
     border: 1px solid red;
@@ -130,9 +136,11 @@ details > p {
     font-weight: 700;
     margin-right: 10px;
     font-size: 70%;
-
 }
 
+.cross::after {
+    content: '\2717';
+}
 
 .tag {
     line-height: 30px;
@@ -140,7 +148,7 @@ details > p {
     border-radius: 20px;
     color: #fff;
     font-weight: 700;
-    margin-left: 10px;
+    margin-left: 5px;
     font-size: 12px;
     display: inline-block;
     vertical-align: middle;
