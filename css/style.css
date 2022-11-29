@@ -12,7 +12,7 @@ body {
 
 .container {
     background: #fff;
-    height: 1000px;
+    height: 800px;
     width: 70%;
     margin: 0 auto;
 }
@@ -99,6 +99,7 @@ details > p {
     font-size: 25px;
     display: inline;
     line-height: 50px;
+    vertical-align: middle;
 }
 
 .check {
@@ -106,6 +107,8 @@ details > p {
     border: 1px solid green;
     border-radius: 60%;
     width: 20px;
+    line-height: 20px;
+    vertical-align: middle;
     text-align: center;
     background-color: white;
     display: inline-block;
@@ -120,11 +123,13 @@ details > p {
     border-radius: 60%;
     width: 20px;
     text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
     background-color: white;
     display: inline-block;
     font-weight: 700;
     margin-right: 10px;
-    font-size: 90%;
+    font-size: 70%;
 
 }
 
@@ -160,4 +165,14 @@ details > p {
 .mobile, .mobile::after {
     background-color: #F29E33;
     content: "Mobile";
+}
+
+.website, .website::after {
+    background-color: #D863A1;
+    content: "Website";
+}
+
+.sales, .sales::after {
+    background-color: #B0C927;
+    content: "Sales";
 }
