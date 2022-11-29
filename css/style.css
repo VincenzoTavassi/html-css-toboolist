@@ -1,0 +1,72 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    background: #F6F8F9;
+}
+
+.container {
+    background: #fff;
+    height: 1000px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    background: #fff;
+    line-height: 100px;
+}
+
+#logo {
+ vertical-align: middle;
+ height: 80px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 60px;
+    font-weight: bolder;
+    vertical-align: middle;
+}
+
+/* Buttons */
+
+.input-utente {
+    background: #fff;
+    line-height: 70px;
+    width: 70%;
+    margin: 50px auto 3px;
+    vertical-align: middle;
+    border-radius: 10px 10px 0 0;
+}
+
+.button {
+    line-height: 30px;
+    padding: 1px 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+#task {
+    background-color: #47ADF1;
+    border: 2px solid #47ADF1;
+    margin-left: 50px;0px;
+    margin-right: 10px;
+}
+
+#section {
+    background-color: #fff;
+    color: lightgray;
+    border: 2px solid lightgray;
+
+}
